@@ -5,17 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moving to Leipzig- Free consultancy</title>
     <link rel="stylesheet" href="style.css" />
+    <style smooth-scrolling></style>
   </head>
   <body>
-    <header></header>
+    <!-- Top nav menu -->
+    <header>
+      <nav>
+        <div class="main-logo">
+          <img src="icons/germany.svg" alt="Logo" style="width: 20%;" />
+        </div>
+        <div class="navigation-menu-desktop">
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#reasons">Reasons</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
-      <!-- Heading -->
-      <section id="heading">
-        <div class="section-main">
-          <h1>Moving to Leipzig</h1>
-          <h2>Free consultant</h2>
-          <p>headstart for better life!</p>
-          <a href="#contact" class="btn">Get in touch</a>
+      <!-- top -->
+      <section id="top">
+        <h1>Moving to Leipzig</h1>
+        <div class="section-wide">
+          <div class="split">
+            <div class="img-split">
+              <img src="img/leipzig.jpg" alt="Leipzig photo" width="700px" />
+            </div>
+            <div class="text-split">
+              <h2>Free consultant</h2>
+              <p>head start for better life!</p>
+              <a href="#contact" class="btn">Get in touch</a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -24,17 +47,132 @@
         <div class="section-main">
           <h2>Who am I</h2>
           <h3>And how can I help you?</h3>
-          <p>
-            Our vision is to help those who want to move to Leipzig to get to
-            know the city, understand the cost of living, evaluate if this is
-            the right place for you or not and more. It is based on donations
-            and you can decide how much and if you want to give.
-          </p>
+          <div class="about-inner">
+            <img src="img/dooni.jpg" alt="Eden Levin" style="width: 50%;" />
+            <p>
+              Hey! My name is <strong>Eden Levin</strong> and my vision is to
+              <strong>help</strong> those who want to move to
+              <span style="color: brown;"><strong>Leipzig</strong></span> to get
+              to know the city, understand the cost of living, evaluate if this
+              is the right place for you or not <strong>and more</strong>. It is
+              based on donations and you can decide how much and if you want to
+              give.
+            </p>
+          </div>
         </div>
       </section>
 
-      <!-- reasons -->
-      <section id="reasons"></section>
+      <!-- reasons (cards) -->
+      <div id="reasons"><h2 style="font-size: 2.5em;">reasons to move</h2></div>
+      <div class="section-wide">
+        <section id="card-grid">
+          <!--card 1-->
+          <div class="flip-card">
+            <a
+              href="https://en.wikipedia.org/wiki/Education_in_Germany"
+              target="_blank"
+            >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="icons/school-hat.svg"
+                    alt="School hat"
+                    style="width: 250px;"
+                  />
+                  <h3>Education</h3>
+                </div>
+                <div class="flip-card-back">
+                  <p>Great schools in good prices</p>
+                  <p>*Also in English!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--card 2-->
+          <div class="flip-card">
+            <a
+              href="https://en.wikipedia.org/wiki/Culture_of_Germany"
+              target="_blank"
+            >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="icons/polka-music.svg"
+                    alt="German man"
+                    style="width: 250px;"
+                    height="200px"
+                  />
+                  <h3>Culture</h3>
+                </div>
+                <div class="flip-card-back">
+                  <p>Amazing history</p>
+                  <p>and <b>very</b> nice people!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--card 3-->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="icons/jar-of-beer.svg"
+                  alt="Beer"
+                  style="width: 250px;"
+                />
+                <h3>Food</h3>
+              </div>
+              <div class="flip-card-back">
+                <p>All the beers and sausages you could eat!</p>
+              </div>
+            </div>
+          </div>
+          <!--card 4-->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="icons/savings.svg"
+                  alt="Money"
+                  style="width: 250px;"
+                />
+                <h3>Strong Economy</h3>
+              </div>
+              <div class="flip-card-back">
+                <p>Great living cost in a vibrant city</p>
+              </div>
+            </div>
+          </div>
+          <!--card 5-->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="icons/home.svg" alt="House" style="width: 250px;" />
+                <h3>Cost of Living</h3>
+              </div>
+              <div class="flip-card-back">
+                <p>Cheap apartments, great lifestyle</p>
+              </div>
+            </div>
+          </div>
+          <!--card 6-->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="icons/buddhist-yoga-pose.svg"
+                  alt="yoga"
+                  style="width: 250px;"
+                />
+                <h3>Relaxation</h3>
+              </div>
+              <div class="flip-card-back">
+                <p>No pressure and healthy life</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
 
       <!-- gallery -->
       <section id="gallery"></section>
